@@ -23,7 +23,7 @@ This is an example of a device, driven by Freescale MQX RTOS 4.1.1 ([http://www.
 6.     Press Ctrl+Shift+F in order to find “`nnXXXX.pg.devicehive.com`” string in the source code and change this URL to the one, you got on step 4 (do not forget to add the beginning of the URL path, e.g. _/api/_).
 7.     Make board-specific and project-specific changes:  
      7.1. **Optional.** Change required MQX source files according to MQX BSP modification and other instructions. You may skip this step, but you may want to use _externals\MQX-patch.diff_ patch to make all the necessary changes in MQX RTOS sources for running this example on the custom board this example was originally developed for (to apply the patch type `git apply --ignore-space-change --ignore-whitespace externals/ MQX-patch.diff` from within the root folder of the project and press enter). This is only illustrational action and you must not expect these changes will fit your particular board requirement!  
-     7.2. Modify TestPin_think.c and TestPin_think.h files in Peripherals subfolder to get LEDs and Push button of your board properly controllable.  
-     7.3. Set up the Debugger in DeviceHive-MQX->Debugger project’s options.
-8.     In the IAR IDE go to Project->Batch build… menu, choose the Debug configuration and press Make button.
+     7.2. Modify _TestPin_think.c_ and _TestPin_think.h_ files in _Peripherals_ subfolder to get LEDs and Push button of your board properly controllable.  
+     7.3. Set up the Debugger in _DeviceHive-MQX->Debugger_ project’s options.
+8.     In the IAR IDE go to _Project->Batch build…_ menu, choose the _Debug_ configuration and press _Make_ button.
 
