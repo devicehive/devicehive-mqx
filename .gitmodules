@@ -1,0 +1,3 @@
+[submodule "externals/SSL/CyaSSL"]
+	path = externals/SSL/CyaSSL
+	url = https://github.com/cyassl/cyassl.git
